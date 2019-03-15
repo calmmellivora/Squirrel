@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/background"/>
+
+    <item
+        android:gravity="center_horizontal|top"
+        android:width="184dp"
+        android:height="184dp"
+        android:top="150dp">
+        <bitmap
+            android:alpha="0.85"
+            android:gravity="center|fill"
+            android:src="@drawable/ic_squirrel" />
+    </item>
+
+    <item
+        android:gravity="center_horizontal|bottom"
+        android:width="118dp"
+        android:height="34dp"
+        android:bottom="60dp">
+        <bitmap
+            android:gravity="center|fill"
+            android:src="@drawable/cutepool" />
+    </item>
+
+</layer-list>
